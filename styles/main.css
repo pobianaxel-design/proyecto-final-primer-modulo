@@ -25,6 +25,7 @@
   --green-shadow: rgba(11, 237, 102, 0.75);
   --green-shadowtwo: rgba(37, 172, 10, 0.75);
   --blue-shadow: rgba(96, 155, 195, 0.75);
+  --green-number: rgb(21, 101, 56);
 }
 
 :-webkit-scrollbar {
@@ -203,21 +204,7 @@ aside header {
 }
 
 /* messages styles */
-
-.contacto-menudo {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  gap: 10px;
-  overflow: hidden;
-}
-
-.contacto-flor {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  gap: 10px;
-  overflow: hidden;
+.contacts svg {
 }
 
 .unread {
@@ -359,7 +346,7 @@ footer .send:hover {
 }
 
 /* responsive desing */
-@media (max-width: 880px) {
+@media (max-width: 400px) {
   .app {
     grid-template-columns: 1fr;
   }
