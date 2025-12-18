@@ -18,8 +18,31 @@
   --green-300: #2dca7a;
   --green-100: #dcf8c6;
   --primary-font: "Roboto", sans-serif;
+  --green-400: #00a884;
 }
 
+.icons_header {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.icon-wrapper svg {
+  pointer-events: none;
+}
 body {
   background-color: var(--primary-color);
   padding: 40px;
@@ -82,7 +105,7 @@ aside header {
   cursor: pointer;
   background-color: var(--grey-800);
   color: var(--grey-300);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .actions button svg {
@@ -152,7 +175,7 @@ aside header {
   display: flex;
   padding: 10px;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .chat-header img {
@@ -180,7 +203,6 @@ aside header {
   gap: 20px;
   overflow-y: auto;
 }
-
 
 .message {
   background-color: var(--grey-300);
@@ -230,7 +252,7 @@ footer .attach {
   border: none;
   cursor: pointer;
   color: var(--grey-700);
-  transition: color .2s;
+  transition: color 0.2s;
 }
 
 footer .attach:hover {
@@ -265,7 +287,7 @@ footer .send {
   border-radius: 20px;
   padding: 5px;
   cursor: pointer;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 footer .send:hover {
@@ -274,7 +296,7 @@ footer .send:hover {
 }
 
 /* responsive desing */
-@media (max-width:880px) {
+@media (max-width: 880px) {
   .app {
     grid-template-columns: 1fr;
   }
