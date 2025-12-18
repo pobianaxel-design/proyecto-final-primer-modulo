@@ -21,6 +21,15 @@
   --green-400: #00a884;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/*iconos de mi humilde pagina */
 .icons_header {
   display: flex;
   gap: 15px;
@@ -120,9 +129,6 @@ aside header {
 /* search input */
 .search {
   background-color: var(--grey-800);
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 10px;
 }
 
@@ -193,6 +199,12 @@ aside header {
   display: flex;
   flex-direction: column;
   min-height: 0;
+  background-color: #e5ddd5 !important;
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-repeat: repeat;
+  background-size: 400px;
+
+  background-attachment: fixed;
 }
 
 .messages {
