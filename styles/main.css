@@ -19,6 +19,7 @@
   --green-100: #dcf8c6;
   --primary-font: "Roboto", sans-serif;
   --green-400: #00a884;
+  --green-unread: #25d366;
 }
 
 ::-webkit-scrollbar {
@@ -195,16 +196,50 @@ aside header {
 
 /* messages styles */
 
-.chat-panel {
+.contacto-menudo {
   display: flex;
   flex-direction: column;
-  min-height: 0;
-  background-color: #e5ddd5 !important;
-  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
-  background-repeat: repeat;
-  background-size: 400px;
+  flex: 1;
+  gap: 10px;
+  overflow: hidden;
+}
 
+.contacto-flor {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.unread {
+  background-color: #25d366;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.chat-panel {
+  background-color: #e5ddd5;
+  background-image: url("../assets/fondo-wpp.png");
+  background-repeat: repeat;
+  background-size: 450px;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .messages {
@@ -239,6 +274,7 @@ aside header {
 /* footer styles */
 
 footer {
+  flex-shrink: ;
   display: flex;
   background-color: var(--grey-500);
   align-items: center;
