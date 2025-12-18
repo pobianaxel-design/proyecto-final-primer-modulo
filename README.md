@@ -1,4 +1,5 @@
-# Proyecto base para la comisión 999200928
-## Maquetación de proyecto web
+# Proyecto de Axel Pobian.
 
-Aquí encontrarás el código base referente al proyecto final.
+## Clon no funcional de "Whatsapp".
+
+Trabajo practico N1
