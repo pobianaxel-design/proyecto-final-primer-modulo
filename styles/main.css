@@ -236,7 +236,7 @@ aside header {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -274,7 +274,6 @@ aside header {
 /* footer styles */
 
 footer {
-  flex-shrink: ;
   display: flex;
   background-color: var(--grey-500);
   align-items: center;
