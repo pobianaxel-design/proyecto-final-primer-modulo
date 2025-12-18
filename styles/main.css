@@ -346,12 +346,18 @@ footer .send:hover {
 }
 
 /* responsive desing */
-@media (max-width: 400px) {
+@media (max-width: 880px) {
   .app {
     grid-template-columns: 1fr;
   }
 
   aside {
     display: none;
+  }
+
+  .message img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 }
